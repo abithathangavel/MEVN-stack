@@ -30,7 +30,7 @@ mongoose.connect("mongodb+srv://enjoyliving11:fernwah259@cluster0.iw44f5r.mongod
 })
 .catch(err=>{
     console.log(err)
-}
+})
 
 //error hanler
 app.use(function(err, req, res, next) {
