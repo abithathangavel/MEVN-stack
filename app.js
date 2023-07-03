@@ -1,4 +1,4 @@
-let express = require('express'),
+elet express = require('express'),
     cors = require('cors'),
     mongoose = require('mongoose'),
     path = require("path")
@@ -29,7 +29,7 @@ mongoose.connect("mongodb+srv://enjoyliving11:fernwah259@cluster0.iw44f5r.mongod
     console.log("Connected to DB");
 })
 .catch(err=>{
-    console.log(ERR)
+    console.log(err)
 }
 
 //error hanler
