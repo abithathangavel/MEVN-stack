@@ -28,6 +28,9 @@ mongoose.connect("mongodb+srv://enjoyliving11:fernwah259@cluster0.iw44f5r.mongod
 .then(()=>{
     console.log("Connected to DB");
 })
+.catch(err=>{
+    console.log(ERR)
+}
 
 //error hanler
 app.use(function(err, req, res, next) {
